@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@mipmap/project_icon"
+            android:title="Layihələr" />
+        <item
+            android:id="@+id/nav_issue"
+            android:icon="@mipmap/issue_icon"
+            android:title="Tapşırıqlar" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Alətlər" />
+    </group>
+    <item android:title="Digər">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/about_icon"
+                android:title="Haqqında" />
+
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@mipmap/terms_icon"
+                android:title="İstifadə şərtləri" />
+        </menu>
+    </item>
+
+</menu>
